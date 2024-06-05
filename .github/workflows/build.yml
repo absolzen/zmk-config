@@ -2,4 +2,8 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
+<<<<<<< HEAD
     uses: urob/zmk/.github/workflows/build-user-config.yml@build-with-submodules
+=======
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+>>>>>>> 0e52213 (Initial User Config.)
